@@ -75,12 +75,12 @@ The following steps were performed to prepare the dataset for modeling:
 
 ## Modeling
 
-The model utilized in this project is **Linear Regression**. This algorithm was chosen due to its simplicity and effectiveness in binary classification tasks involving text data.
+The model utilized in this project is **Logistic Regression**. This algorithm was chosen due to its simplicity and effectiveness in binary classification tasks involving text data.
 
 ### Model Development
 
-- **Algorithm:** Linear Regression  
-- **Parameters:** max_iter=500, solver='liblinear'.
+- **Algorithm:** Logistic Regression  
+- **Parameters:** max_iter=500, solver='libLogistic'.
 - **Feature Extraction:** CountVectorizer with `char_wb` analyzer and n-grams (2,6) to capture name patterns.
 
 ### Model Training Process
@@ -126,7 +126,7 @@ The model achieved high accuracy, with relatively balanced precision, recall, an
 
 ## Conclusion
 
-This project successfully developed a machine learning model for gender detection based on names. The use of Linear Regression resulted in strong performance metrics, particularly with careful data preprocessing and feature engineering.
+This project successfully developed a machine learning model for gender detection based on names. The use of Logistic Regression resulted in strong performance metrics, particularly with careful data preprocessing and feature engineering.
 
 
 
